@@ -1,0 +1,22 @@
+{
+  "name": "map",
+  "version": "0.0.0",
+  "authors": [
+    "Adam Krebs <amk528@cs.nyu.edu>"
+  ],
+  "description": "y",
+  "main": "y",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.1",
+    "chaplin": "~1.0.0"
+  }
+}
