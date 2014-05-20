@@ -19,7 +19,7 @@ module.exports = {
       { test: /\.css$/,    loader: 'style-loader!css-loader' },
 
       // for handlebars
-      { test: /\.hbs$/, loader: "handlebars-loader" },
+      { test: /\.hbs$/,    loader: "handlebars-loader" },
 
       // required for bootstrap icons
       { test: /\.woff$/,   loader: 'url-loader?prefix=font/&limit=5000&mimetype=application/font-woff' },
