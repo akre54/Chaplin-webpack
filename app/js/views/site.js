@@ -1,7 +1,7 @@
 var View = require('./base_view'),
     template = require('../templates/site.hbs');
 
-var SiteView = View.extend({
+var SiteView = module.exports = View.extend({
   template: template,
   regions: {
     'header': '#header',

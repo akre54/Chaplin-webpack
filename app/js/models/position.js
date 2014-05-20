@@ -1,5 +1,5 @@
 var Chaplin = require('chaplin');
 
-var Position = Chaplin.Model.extend({
+var Position = module.exports = Chaplin.Model.extend({
 
 });

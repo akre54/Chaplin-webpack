@@ -4,7 +4,7 @@ var Controller = require('./base_controller'),
     FooterView = require('../views/footer'),
     MapsView = require('../views/maps');
 
-var MapsController = Controller.extend({
+var MapsController = module.exports = Controller.extend({
   beforeAction: function() {
     this.reuse('site', SiteView);
     this.reuse('header', HeaderView, {region: 'header'});
