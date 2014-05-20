@@ -1,6 +1,6 @@
-// require('../assets/css/boostrap.css');
-// require('../assets/css/boostrap-theme.css');
-// require('../assets/css/main.css');
+require('../assets/css/bootstrap.css');
+require('../assets/css/bootstrap-theme.css');
+require('../assets/css/main.css');
 
 
 var Chaplin = require('chaplin');
