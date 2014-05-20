@@ -9,7 +9,7 @@ require('./controllers/maps_controller');
 
 new Chaplin.Application({
     title: 'map',
-    controllerPath: './controllers',
+    controllerPath: './controllers/',
     routes: function(match) {
         match('', 'maps#index');
         match('map', 'maps#index', {name: 'index'});
